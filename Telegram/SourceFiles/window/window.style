@@ -251,7 +251,7 @@ windowFiltersButton: SideBarButton(defaultSideBarButton) {
 		font: font(11px semibold);
 	}
 	badgeStyle: TextStyle(defaultTextStyle) {
-		font: font(12px semibold);
+		font: font(12px);
 	}
 	badgeSkip: 4px;
 	badgeHeight: 17px;

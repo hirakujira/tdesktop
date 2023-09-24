@@ -887,7 +887,7 @@ historyToDown: TwoIconButton {
 		color: historyToDownBgRipple;
 	}
 }
-historyToDownBadgeFont: semiboldFont;
+historyToDownBadgeFont: normalFont;
 historyToDownBadgeSize: 22px;
 
 historyToDownShownAfter: 480px;

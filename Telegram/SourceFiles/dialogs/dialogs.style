@@ -57,7 +57,7 @@ infoForumTopicIcon: ForumTopicIcon {
 	textTop: 4px;
 }
 
-dialogsUnreadFont: font(12px bold);
+dialogsUnreadFont: font(12px);
 dialogsUnreadHeight: 19px;
 dialogsUnreadPadding: 5px;
 
