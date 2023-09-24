@@ -71,7 +71,7 @@ dialogsTextStyle: TextStyle(defaultTextStyle) {
 	linkFont: dialogsTextFont;
 	linkFontOver: dialogsTextFont;
 }
-dialogsDateFont: font(13px);
+dialogsDateFont: font(12px);
 dialogsDateSkip: 5px;
 
 dialogsRowHeight: 62px;
