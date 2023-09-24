@@ -377,12 +377,12 @@ void PaintRow(
 			: custom;
 		PaintRowTopRight(p, text, rectForName, context);
 	} else if (from) {
-		if (const auto chatTypeIcon = ChatTypeIcon(from, context)) {
-			chatTypeIcon->paint(p, rectForName.topLeft(), context.width);
-			rectForName.setLeft(rectForName.left()
-				+ chatTypeIcon->width()
-				+ st::dialogsChatTypeSkip);
-		}
+		// if (const auto chatTypeIcon = ChatTypeIcon(from, context)) {
+		// 	chatTypeIcon->paint(p, rectForName.topLeft(), context.width);
+		// 	rectForName.setLeft(rectForName.left()
+		// 		+ chatTypeIcon->width()
+		// 		+ st::dialogsChatTypeSkip);
+		// }
 	}
 	auto texttop = context.st->textTop;
 	if (const auto folder = entry->asFolder()) {
