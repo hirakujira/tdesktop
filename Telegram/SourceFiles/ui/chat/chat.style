@@ -13,8 +13,8 @@ using "chat_helpers/chat_helpers.style"; // GroupCallUserpics
 
 msgMaxWidth: 430px;
 msgFont: font(fsize);
-msgNameFont: semiboldFont;
-msgNameStyle: semiboldTextStyle;
+msgNameFont: normalFont;
+msgNameStyle: defaultTextStyle;
 msgServiceFont: semiboldFont;
 msgServiceNameFont: semiboldFont;
 msgServicePhotoWidth: 100px;
