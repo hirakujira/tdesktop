@@ -1,72 +1,17 @@
-﻿# 64Gram – Based on [Telegram Desktop](https://github.com/telegramdesktop/tdesktop)
+﻿# This project is based on [64Gram](https://github.com/TDesktop-x64/tdesktop), a telegram desktop fork
 
 The source code is published under GPLv3 with OpenSSL exception, the license is available [here][license].
 
-[![Preview of 64Gram][preview_image]][preview_image_url]
+## 關於本專案
 
-## Project Goal
+由於 Telegram Desktop 在 UI 與字體上和 iOS 以及 macOS 原生的 Telegram 有些不一致
+在個人審美觀之下，我修改了一部分的字體與 UI
 
-Provide Windows 64bit build with some enhancements.
+本專案是為了本人需求所修改，歡迎但不一定採用任何建議或 PR
 
-~~Cause official Telegram Desktop do not provide Windows 64bit build, so [Project TDesktop x64](https://github.com/TDesktop-x64) is aimed at provide Windows native x64 build(with few enhancements) to everybody.~~
+## 修改了些什麼
 
-## Roadmap
-
-No Roadmap? Yes.
-
-## [Features](features.md)
-
-## Supported systems
-
-Windows 7 and above
-
-Linux 64 bit
-
-macOS > 10.12 and above
-
-The latest version is available on the [Release](https://github.com/TDesktop-x64/tdesktop/releases) page.
-
-For Linux users, flatpak is available at Flathub:
-
-<a href='https://flathub.org/apps/io.github.tdesktop_x64.TDesktop'><img width='240' alt='Download on Flathub' src='https://dl.flathub.org/assets/badges/flathub-badge-en.png'/></a>
-
-## Localization
-
-If you want to translate this project, **Just Do It!**
-
-Create a Pull Request: [Localization Repo](https://github.com/TDesktop-x64/Localization).
-
-**Here is a project [translation template](https://github.com/TDesktop-x64/Localization/blob/master/en.json).**
-
-You can find a language ID on Telegram's log.txt
-
-For example: `[2022.04.23 10:37:45] Current Language pack ID: de, Base ID: `
-
-Then your language translation filename is `de.json` or something like that.
-
-***Note: Ignore base ID(base ID translation - Work in progress)***
-
-## Build instructions
-
-* Windows [(32-bit)][win32] [(64-bit)][win64]
-* [macOS][mac]
-* [GNU/Linux using Docker][linux]
-
-## Links
-
-* [Official Telegram Channel](https://t.me/tg_x64)
-* [Official discussion group](https://t.me/tg_x64_chat)
-
-## Sponsors
-<a href="https://www.jetbrains.com/?from=64Gram">
-     <img src="https://www.jetbrains.com/icon-512.png"  alt="JetBrains" width="150"/>
-</a>
-
-[//]: # (LINKS)
-[license]: LICENSE
-[win32]: docs/building-win.md
-[win64]: docs/building-win-x64.md
-[mac]: docs/building-mac.md
-[linux]: docs/building-linux.md
-[preview_image]: https://github.com/TDesktop-x64/tdesktop/blob/dev/docs/assets/preview.png "Preview of 64Gram Desktop"
-[preview_image_url]: https://raw.githubusercontent.com/TDesktop-x64/tdesktop/dev/docs/assets/preview.png
+* 不使用 Open Sans，改使用 macOS 系統原生字體
+* 部分文字，如聊天室標題、時間戳、未讀訊息數等文字修改為較小字體，或者改為標準字重
+* 貼圖大小從 256px 改為 210px
+* 刪除聊天室列表中的群組跟論壇標示
