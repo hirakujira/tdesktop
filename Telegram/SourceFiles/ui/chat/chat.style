@@ -41,7 +41,9 @@ msgDateImgDelta: 4px;
 msgDateImgPadding: point(8px, 2px);
 
 messageTextStyle: defaultTextStyle;
-msgDateTextStyle: defaultTextStyle;
+msgDateTextStyle: TextStyle(defaultTextStyle) {
+    font: font(11px italic);
+}
 serviceTextPalette: TextPalette(defaultTextPalette) {
 	linkFg: msgServiceFg;
 	monoFg: msgServiceFg;
